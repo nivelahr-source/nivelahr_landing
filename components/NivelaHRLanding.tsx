@@ -331,7 +331,7 @@ export default function NivelaHRLanding() {
 
       {/* ── NAVBAR ── */}
       <nav style={s.nav}>
-        <Image src="/logo.png" alt="NivelaHR" width={120} height={32} style={{ objectFit: "contain" }} priority />
+        <Image src="/nivela_logo.svg" alt="NivelaHR" width={148} height={48} style={{ objectFit: "contain" }} priority />
 
         <ul className="nav-links-desktop" style={s.navLinks}>
           <li><button className="nav-link-btn" onClick={() => scrollTo("nosotros")}>Nosotros</button></li>

@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
 
     const { error } = await resend.emails.send({
       from: "NivelaHR Web <info@nivelahr.com>",
-      to: ["nivelahr@outlook.com"],
+      to: ["info@nivelahr.com"],
       replyTo: email,
       subject: `Nuevo contacto desde la web: ${nombre} (${empresa})`,
       html: `
